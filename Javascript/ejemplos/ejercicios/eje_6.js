@@ -1,6 +1,6 @@
 function saludo(a){
 
-    return "Saludarte es "+ a;
+    return '"'+a+", bienvenidos";
 
 }
-console.log(saludo('"Hola"'));
+console.log(saludo("Hola"));

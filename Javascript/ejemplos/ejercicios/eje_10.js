@@ -1,13 +1,5 @@
-
-function hola(){
-    if(true){
-        return ("Hola Mundo");
-    }else {
-        return ("Error");
+if(true){
+     mensaje= "hola";
     }
-}
 
-
-console.log(hola());
-
-
+console.log(mensaje);
