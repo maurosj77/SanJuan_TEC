@@ -16,4 +16,4 @@ function soy(nom,dni){
         return "Error, Este/a no soy yo";
     }
 }
-console.log(soy("Marcela",27043852));
+console.log(soy("Marcela",2704382));
