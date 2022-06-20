@@ -1,6 +1,20 @@
+function capturar() {
+  function Persona(nombre, edad) {
+    this.nombre = nombre;
+    this.edad = edad;
+  }
+  let nombreCaptura = document.getElementById("nombre").value;
+  let edadCaptura = document.getElementById("edad").value;
+ 
 
-var nombre = "Mauro"
 
-var datos = document.getElementById("datos");
-
-datos.innerHTML= '<h1> Mi nombre es : ${nombre} </h1> '
+   nuevosujeto  = new Persona(nombreCaptura,edadCaptura);
+  
+  agregar();
+}
+let baseDeDatos=[];
+function agregar(){
+    baseDeDatos.push(nuevosujeto);
+    console.log(baseDeDatos);
+document.getElementById("tabla").innerHTML += "<h1>"+ nuevosujeto.nombre+"</h1>"
+}

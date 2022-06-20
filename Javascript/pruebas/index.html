@@ -1,15 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <div id="datos" ></div>  
+  </head>
+  <body>
+    <div class="container py-2">
+      <p class="lead">Ingrese Usuario</p>
+      <form>
+        <input type="text" id="nombre" class="form-control my-2" />
+        <input type="text" id="edad" class="form-control my-2" />
+        <button
+          type="text"
+          id="boton"
+          class="btn btn-success"
+          type="reset"
+          onclick="capturar();"
+        >
+          ingresar
+        </button>
+      </form>
+    </div>
+<div class="container">
+    <div class="table" id="tabla">
+        <thead class="thead-inverse">
+            <tr>
+                <th>nombre</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+    </div>
+</div>
+
+
 
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
