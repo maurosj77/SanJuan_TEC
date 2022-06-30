@@ -6,12 +6,21 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent implements OnInit {
-  title = 'en la casa de una abuela';
-  cardInfo: any = {
-    title: 'kakita',
-    imaGen:
-      'https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/f09f8452-ca18-44b5-a3eb-495c93401121.png?auto=format&q=50&w=90&h=90&fit=max&dpr=3',
-    carBody: '',
+  title = 'probando';
+  jason: any = {
+    title: 'cessna',
+    carBody: 'prueba2',
+    location: '142.254.325.65',
+    img: 'https://www.freecodecamp.org/espanol/news/content/images/2020/12/react-vs-angular-1-.png',
+  };
+
+  jason2 :any = {
+    nombre: 'marcela',
+    apellido: 'Vega Quiroga',
+    casada: true,
+    trabajo: { dia: 'Trielec', noche: 'Muni' },
+    vestimenta: ['pantalonVerde', 'pantalonblanco'],
+    hobby: {invierno:["correr","comer"],otoño : "caminar"}
   };
 
   constructor() {}
