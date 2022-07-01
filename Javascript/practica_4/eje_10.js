@@ -22,9 +22,9 @@ var usuarios = [
     //Arreglo para item 10
 
 function sumarLikesDeUsuario(usuario) {
-   let suma = 0;
+    let suma=0;
 usuario[0].posts.forEach(element => {
-    suma += element.Likes
+    suma += element.Likes;
     
 });
 return suma
