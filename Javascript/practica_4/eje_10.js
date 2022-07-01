@@ -29,9 +29,7 @@ usuario[0].posts.forEach(element => {
 });
 return suma
 }
-    
-    
-    console.log(sumarLikesDeUsuario(usuarios));
+console.log(sumarLikesDeUsuario(usuarios));
 
 
  
