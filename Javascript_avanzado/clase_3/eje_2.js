@@ -1,11 +1,14 @@
+function saludar( saludo ){
 
-
-function counter(){
-        let inicio = 0;
-
-        function sumar(inicio){
-            inicio ++;
-        }
-return sumar();
-}
-
+    return function( nombre ){
+    
+    console.log(saludo + ' ' + nombre);
+    
+    }
+    
+    }
+    
+    var saludarHola = saludar('Hola'); // Esto
+    //devuelve una función
+    
+    saludarHola('Joaco'); // 'Hola Joaco'
