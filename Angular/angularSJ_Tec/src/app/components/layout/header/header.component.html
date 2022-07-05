@@ -1,7 +1,11 @@
-<h1>hola desde el componente {{title}}</h1>
+<div *ngIf="flag">
+<h1 >hola desde el componente {{title}}</h1>
   <h2>probando {{jason.title}}</h2>
   <img src="{{jason.img}}" alt="">
 <h1>{{jason2.hobby.invierno[0]}}</h1>
 <h1>{{jason2.trabajo.dia}}</h1>
 <h1>{{jason2.hobby.invierno[1]}}</h1>
 <h1>{{jason2.trabajo.dia}}</h1>
+</div>
+
+<button (click)="onChange()"class="bt ">hace click</button>

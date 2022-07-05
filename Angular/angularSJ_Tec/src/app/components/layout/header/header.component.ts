@@ -24,7 +24,15 @@ export class HeaderComponent implements OnInit {
     hobby: { invierno: ['correr', 'comer'], otoño: 'caminar' },
   };
 
+
+
   constructor() {}
 
   ngOnInit(): void {}
-}
+  flag = false;
+
+
+    onChange(){
+this.flag = !this.flag;
+    }
+  }
