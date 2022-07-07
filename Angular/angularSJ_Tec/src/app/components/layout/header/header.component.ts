@@ -8,6 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
   title = 'probando';
 
+arreglo : any [] =[
+"nombre","juan","Marcelo"
+]
+
   jason: any = {
     title: 'cessna',
     carBody: 'prueba2',
@@ -35,4 +39,10 @@ export class HeaderComponent implements OnInit {
     onChange(){
 this.flag = !this.flag;
     }
+
+
+    cambiarNombre(){
+      this.flag = this.flag
+    }
   }
+
