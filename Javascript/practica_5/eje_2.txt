@@ -1,0 +1,15 @@
+/*Crea un objeto, en donde tenga un metodo 
+que devuelva.."Hola Mundo". Muestra ese metodo*/
+
+
+const nuevoMetodo = {
+
+    saludar: function() {
+    
+    console.log('Hola mundo!');
+    
+    }
+    
+    }
+    
+    nuevoMetodo.saludar(); 

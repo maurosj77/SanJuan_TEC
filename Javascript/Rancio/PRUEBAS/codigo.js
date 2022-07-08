@@ -1,11 +1,36 @@
-function saludar(nombre){
-    console.log(`'bienvenido  ${nombre}'`);
+/*const nuevoUsuario = {
 
-}
+    esNuevo: true
+    
+    }
+    
+    const loveJSString = 'lovesJavascript';
+    
+    nuevoUsuario.username =
+    'otro.nombre.de.usuario';
+    
+    nuevoUsuario['password'] = '12345';
+    
+    nuevoUsuario[loveJSString] = true;
+    
+    console.log(nuevoUsuario)*/
+    /*const usuario = {
 
-saludar();
-saludar();
-saludar();
-saludar();
-saludar();
-saludar("mauro");
+        username: 'juan.perez',
+        
+        password: 'loremipsumpwd123',
+        
+        lovesJavascript: true,
+        
+        favoriteNumber: 42
+        
+        };
+        
+        for (let clave in usuario){
+        
+        //console.log(clave);
+        
+        console.log(usuario[clave]);
+        
+        }*/
+        

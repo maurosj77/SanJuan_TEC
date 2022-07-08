@@ -1,0 +1,13 @@
+/*Crea un objeto con sus propiedades basado en algun echo de la realidad
+ (ejemplo un auto - no usar este)*/
+
+
+ const confiteria = {
+    empleados : 20,
+    muebles: 30,
+    nombre: "Gourmet",
+    habilitado: true,
+
+ }
+
+ 
